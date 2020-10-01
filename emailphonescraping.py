@@ -1,4 +1,4 @@
-'''
+'''An Amazing Project
 a Python Script to scrape websites for
 email addresses and US phone numbers
 
