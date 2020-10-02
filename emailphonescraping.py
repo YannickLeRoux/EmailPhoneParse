@@ -20,14 +20,14 @@ phone = re.findall(r"((?:\d{3}|\(\d{3}\))?(?:\s|-|\.)?\d{3}(?:\s|-|\.)\d{4})",s)
 emails = re.findall(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,3}",s)
 
 if len(phone) == 0:
-    print ("Sorry, no phone number found.")
+    print ("Sorry, no phone number found on this page.")
 
     print('------------')
     print ()
 else :
     count = 1
     for item in phone:
-        print ( count, ' phone number(s) found : ',item )
+        print ( count, ' phone number(s) found on this page : ',item )
         count += 1
 
 print('------------')
