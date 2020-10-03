@@ -1,2 +1,4 @@
 # EmailPhoneParse
-Python Script to Parse *Phone #* and *E-mails* from Websites
+Python Script to Parse *Phone #* from Website
+Python Script to parse *E-mails* from Website
+
